@@ -13,7 +13,7 @@ import pandas as pd
 
 st.title('Interactive Finance Dashboard for Data Analytics Portfolio-Francesco Paolo Bellifemina')
 
-tickers = ('BTC-USD', 'ETH-USD', 'SOL-USD', 'AVAX-USD', 'SHIB-USD', 'DOGE-USD','ALGO-USD', 'UNI7083-USD')
+tickers = ('BTC-USD', 'ETH-USD', 'SOL-USD', 'AVAX-USD', 'SHIB-USD', 'ALGO-USD', 'UNI7083-USD')
 
 dropdown = st.multiselect('Choose your crypto', 
                           tickers)
